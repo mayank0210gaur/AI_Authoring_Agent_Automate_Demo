@@ -1,0 +1,12 @@
+userName: mayankgaur_pjgbzF
+accessKey: EuxsDePm71zJ3dkTyYs2
+framework: true
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+browserstackLocal: true
+buildName: browserstack-AI agent authoring for Automate(Latest)
+projectName: BrowserStack Sample
+aiAuthoring: true
