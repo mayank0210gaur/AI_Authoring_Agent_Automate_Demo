@@ -1,10 +1,10 @@
-# AI Authoring Agent Demo (TestNG) for Web (BrowserStack)
+# AI Authoring Agent-Automate Demo for Web (BrowserStack)
 
 [TestNG](http://testng.org) Integration with BrowserStack.
 
 ![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780)
 
-## 🌟 What Does This Repo Do?
+## What Does This Repo Do?
 
 This repository showcases the use of **BrowserStack's AI Authoring Agent** for web automation using TestNG. The key feature is the ability to write test steps in **Natural Language (Plain English)**, moving away from explicit Selenium locators and actions.
 
