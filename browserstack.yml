@@ -9,4 +9,8 @@ platforms:
 browserstackLocal: true
 buildName: browserstack-AI agent authoring for Automate(Latest)
 projectName: BrowserStack Sample
-aiAuthoring: true
+aiAuthoring: true # setting this capability to true will help in running browserstack NL Authoring commands
+
+
+
+

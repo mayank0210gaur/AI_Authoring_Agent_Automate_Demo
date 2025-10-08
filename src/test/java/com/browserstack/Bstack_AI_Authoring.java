@@ -36,6 +36,7 @@ public class Bstack_AI_Authoring {
         // NL AI Objective 3: Find Google Pixel 3 phone on the website and add 5 of them to the cart
           driver.get("https://www.bstackdemo.com/");
           jse.executeScript("browserstack_executor: {\"action\": \"ai\", \"arguments\": [\" Click on the Google button and Add 5 Pixel 3 phones to cart\"]}");
+
     }
 
     @AfterClass

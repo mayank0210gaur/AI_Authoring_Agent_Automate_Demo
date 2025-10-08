@@ -9726,3 +9726,807 @@ com.browserstack.testOps.RequestException: Non 200 response
 22:34:18.227 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
 22:34:21.089 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: ed3556df-42d3-43dd-a368-a984f48ff90c, testhub id: boamp0guvnjaahyh8w8jbgnq0eo9n7c9renae2td
 22:34:21.090 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+17:30:24.525 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+17:30:24.529 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+17:30:24.529 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+17:30:24.598 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/mayankgaur/Documents/Browserstack/Sample project/testng-browserstack-master, user.dir=/Users/mayankgaur/Documents/Browserstack/Sample project/testng-browserstack-master, localrepository=/Users/mayankgaur/.m2/repository}
+17:30:24.599 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:30:24.745 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to true
+17:30:24.746 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: e1ef4b8b-c464-4657-8220-ea2efa9a0c56
+17:30:24.746 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:30:24.753 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/mayankgaur/.browserstack already exist
+17:30:24.754 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: /Users/mayankgaur/.browserstack/cli/binary-macos-arm64
+17:30:25.444 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 
+17:30:25.445 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-macos-arm64-1.8.0.zip
+17:30:27.708 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: /Users/mayankgaur/.browserstack/cli
+17:30:27.709 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: /Users/mayankgaur/.browserstack/cli/binary-macos-arm64
+17:30:27.716 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=true
+17:30:30.326 [main] WARN  c.b.config.BrowserStackConfig - TEST REPORTING AND ANALYTICS could not be enabled because framework detected is true. We currently support frameworks testng, cucumber-testng & serenity
+17:30:31.231 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:30:35.553 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: g4lci3ckxfedlktvrokdd9o5wnksnq4keihpubdn
+17:30:35.553 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:30:35.554 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+17:30:49.524 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+17:30:49.799 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+17:30:49.883 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/mayankgaur/Documents/Browserstack/Sample project/testng-browserstack-master, user.dir=/Users/mayankgaur/Documents/Browserstack/Sample project/testng-browserstack-master, localrepository=/Users/mayankgaur/.m2/repository}
+17:30:49.884 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+17:30:49.970 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 0f485ca8-4472-4317-849f-87465dfd8b25
+17:30:49.970 [main] INFO  c.b.config.BrowserStackConfig - INFO
+17:30:49.977 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/mayankgaur/.browserstack already exist
+17:30:49.978 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: /Users/mayankgaur/.browserstack/cli/binary-macos-arm64
+17:30:50.642 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 
+17:30:50.642 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-macos-arm64-1.8.0.zip
+17:30:52.928 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: /Users/mayankgaur/.browserstack/cli
+17:30:52.930 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: /Users/mayankgaur/.browserstack/cli/binary-macos-arm64
+17:30:52.936 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=true
+17:30:55.366 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+17:30:55.397 [main] WARN  c.b.config.BrowserStackConfig - TEST REPORTING AND ANALYTICS could not be enabled because framework detected is true. We currently support frameworks testng, cucumber-testng & serenity
+17:30:56.101 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+17:30:56.107 [main] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+17:33:12.592 [main] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+17:33:14.031 [Thread-0] ERROR c.browserstack.testOps.RequestUtils - [RequestUtils] Error in stop: Non 200 response
+com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy11.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+17:33:16.479 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - [collectBuildData] Skipping build data collection: runSmartSelection is not enabled.
+17:33:16.481 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+17:33:23.219 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack yml path passed - /Users/mayankgaur/Documents/Browserstack/Sample project/testng-browserstack-master/browserstack.yml
+17:33:24.531 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+17:33:25.494 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: e1ef4b8b-c464-4657-8220-ea2efa9a0c56, testhub id: g4lci3ckxfedlktvrokdd9o5wnksnq4keihpubdn
+17:33:25.495 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:20:27.341 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+18:20:27.356 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+18:20:27.357 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+18:20:27.468 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:20:27.470 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:20:27.476 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+18:20:27.795 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+18:20:27.796 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 1f86f478-2beb-4dc7-b725-02803b3e876e
+18:20:27.796 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:20:27.803 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/mayankgaur/.browserstack already exist
+18:20:27.805 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: /Users/mayankgaur/.browserstack/cli/binary-macos-arm64
+18:20:28.574 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 
+18:20:28.574 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-macos-arm64-1.8.0.zip
+18:20:30.791 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: /Users/mayankgaur/.browserstack/cli
+18:20:30.793 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: /Users/mayankgaur/.browserstack/cli/binary-macos-arm64
+18:20:30.793 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+18:20:30.793 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='/Users/mayankgaur/.browserstack/cli/binary-macos-arm64' 'sdk' 'tcp'
+18:20:33.705 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:20:38.315 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: ridjev8uhw5gcsp1rwg42r1l5dyuf9zptj1stakm
+18:20:38.315 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:20:38.315 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+18:20:38.655 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+18:20:38.655 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:20:50.733 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:20:51.003 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {}
+18:20:51.003 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {}
+18:20:51.277 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {}
+18:20:51.277 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {}
+18:21:02.669 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.669 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.670 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.670 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.670 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.670 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.671 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.673 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.706 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.706 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.706 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.706 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.712 [setUp@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.713 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.723 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.734 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.734 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.734 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.734 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.734 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.734 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.734 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.734 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.734 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.734 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.734 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.734 [BStackDemo-1@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.737 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:02.737 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:04.048 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:04.048 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:04.048 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:04.048 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.103 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.105 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.105 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.106 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.106 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.106 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.107 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.107 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.126 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.127 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.127 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.127 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.130 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.130 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.179 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.180 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.180 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.180 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.180 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.180 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.180 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.180 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.180 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.180 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.180 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.180 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.180 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.186 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.186 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.186 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.186 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.187 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.187 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.187 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.187 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.187 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.187 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.187 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.187 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.193 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:30.193 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:43.316 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:43.316 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:43.316 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:21:43.316 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:13.032 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:13.033 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:19.257 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:19.257 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:19.257 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:19.257 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:25.804 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:25.804 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:32.914 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:32.915 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:32.915 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:32.915 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:41.866 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:41.867 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:45.376 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:45.377 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:45.377 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:45.377 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:53.813 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:53.813 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:54.408 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:54.408 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:54.408 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:22:54.409 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.219 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.280 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.281 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.281 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.281 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.404 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.404 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.490 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.495 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.495 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.495 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.495 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.495 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.495 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.495 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.495 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.495 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.495 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.495 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.495 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.503 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.506 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.506 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.506 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.506 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.506 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.506 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.506 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.506 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.506 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.506 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.506 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.506 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.513 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.513 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.513 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.513 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.513 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.514 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.514 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.514 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.514 [openGoogle@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.565 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.569 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.569 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.569 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.569 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.569 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.569 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.569 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.569 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.569 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.569 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.569 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.569 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.572 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.572 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.573 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.573 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.573 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.573 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.573 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.574 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.574 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.575 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.575 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.575 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.575 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.575 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.575 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:25.575 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:26.013 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:26.013 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:26.014 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:26.014 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:26.014 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:26.014 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:26.452 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:26.452 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:26.452 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:26.452 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:26.452 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:26.452 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:27.953 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:27.953 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:27.953 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:28.369 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:28.371 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:28.371 [tearDown@1] INFO  c.b.utils.BrowserStackDriverMap - thread id: 71 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.352 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.353 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.353 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.353 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.353 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.410 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.411 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.418 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.418 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.418 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.418 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.418 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.419 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.419 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.419 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.419 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.419 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.419 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.419 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.419 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.422 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.422 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.422 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.423 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.423 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.423 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.423 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.423 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.423 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.423 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.423 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.423 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.437 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.437 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.437 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.437 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.437 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.437 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.437 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.437 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.437 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.437 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.437 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.437 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.439 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.439 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.439 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.439 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.439 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.439 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.439 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.439 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.439 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.487 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.487 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.487 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.487 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.487 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.487 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.487 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.487 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.487 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.487 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.487 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.488 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.488 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.494 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.494 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.494 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.494 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.494 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.494 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.494 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.494 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.494 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.494 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.494 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.494 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.496 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.865 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.865 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.866 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.866 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.866 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:38.866 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:39.308 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:39.308 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:39.309 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:39.309 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:39.309 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:39.309 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:41.040 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:41.040 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:41.040 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:42.084 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:42.084 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:42.084 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 70 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:42.839 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/ridjev8uhw5gcsp1rwg42r1l5dyuf9zptj1stakm to view build report, insights, and many more debugging information all at one place!
+
+18:23:42.839 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:23:42.843 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+18:23:51.419 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/c4c7a0414cd9314d57d21333d2c49eb3550b0790
+18:23:51.428 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:23:51.458 [Thread-0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 34 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:51.467 [Thread-0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 34 list {70=com.browserstack.config.TestNgCurrentRemoteWebdriver@6f9d6515, 71=com.browserstack.config.TestNgCurrentRemoteWebdriver@19747bf}
+18:23:51.484 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 1f86f478-2beb-4dc7-b725-02803b3e876e, testhub id: ridjev8uhw5gcsp1rwg42r1l5dyuf9zptj1stakm
+18:23:51.484 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:27:47.352 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+18:27:47.371 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+18:27:47.371 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+18:27:47.551 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:27:47.553 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:27:47.559 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+18:27:48.108 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+18:27:48.110 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: b49b005f-6ac6-466a-9900-fb254163dedd
+18:27:48.110 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:27:48.122 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/mayankgaur/.browserstack already exist
+18:27:48.125 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: /Users/mayankgaur/.browserstack/cli/binary-macos-arm64
+18:27:48.725 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 
+18:27:48.982 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-macos-arm64-1.8.0.zip
+18:27:51.485 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: /Users/mayankgaur/.browserstack/cli
+18:27:51.485 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: /Users/mayankgaur/.browserstack/cli/binary-macos-arm64
+18:27:51.486 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+18:27:51.486 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='/Users/mayankgaur/.browserstack/cli/binary-macos-arm64' 'sdk' 'tcp'
+18:27:51.496 [ForkJoinPool.commonPool-worker-1] DEBUG com.browserstack.v2.SdkCLI - loadCLIParams: start invalid config={} result={}
+18:27:51.527 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process started
+18:27:51.527 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process connecting {}
+18:27:51.535 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+18:27:54.620 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:27:56.013 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: ypljghwshsx6giothdavmrbpwrrnkwczehzh89zh
+18:27:56.013 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:27:56.014 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting Percy......
+18:27:56.369 [main] ERROR com.browserstack.PercyFactory - Initialization of percy failed - java.lang.Exception: Could not get percy token
+	at com.browserstack.PercyFactory.<init>(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.a(Unknown Source)
+	at com.browserstack.PercyFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:544)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:556)
+
+18:27:56.902 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {}
+18:27:57.308 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {}
+18:28:09.847 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.847 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.847 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.848 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.848 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.848 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.850 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.850 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.887 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.887 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.888 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.888 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.905 [setUp@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.905 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.930 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.931 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.931 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.931 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.931 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.932 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.933 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.934 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.934 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.934 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.934 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.934 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.935 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.982 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.982 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.982 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.982 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.982 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.982 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.982 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.982 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.982 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.982 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.982 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.982 [BStackDemo-0@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.988 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:09.988 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:17.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:17.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:17.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:28:17.434 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.615 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.617 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.751 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.752 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.752 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.752 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.753 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.753 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.753 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.753 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.873 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.879 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.879 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.879 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.879 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.942 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.942 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.965 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.965 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.965 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.965 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.965 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.966 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.966 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.966 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.966 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.966 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.966 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.966 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.966 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.970 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.970 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.970 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.970 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.971 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.971 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.971 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.971 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.971 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.971 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.971 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.971 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.981 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.988 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.989 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.989 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.989 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.989 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.989 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.989 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.989 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.989 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.989 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.989 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.989 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.995 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.995 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.995 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.996 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.996 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.997 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.997 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.997 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:10.997 [openGoogle@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.088 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.088 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.088 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.088 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.088 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.088 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.088 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.088 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.088 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.088 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.088 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.089 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.089 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.094 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.094 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.094 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.094 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.094 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.094 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.094 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.094 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.095 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.095 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.095 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.095 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.097 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.097 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.099 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.099 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.099 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.099 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.099 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.099 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.099 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.100 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.100 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.100 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.100 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.100 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.100 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.100 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.488 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.488 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.488 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.488 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.488 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.488 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.930 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.930 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.930 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.930 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.930 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:11.930 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:13.490 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:13.490 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:13.490 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:14.733 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:15.309 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:16.386 [tearDown@0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 69 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:17.178 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://automation.browserstack.com/builds/ypljghwshsx6giothdavmrbpwrrnkwczehzh89zh to view build report, insights, and many more debugging information all at one place!
+
+18:29:17.179 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:29:17.192 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+18:29:19.667 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/157b06cd1aa9ec9d736529e4131e0bb018cdc46c
+18:29:19.667 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:29:19.685 [Thread-0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 34 list {69=com.browserstack.config.TestNgCurrentRemoteWebdriver@20ce4a03}
+18:29:19.689 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: b49b005f-6ac6-466a-9900-fb254163dedd, testhub id: ypljghwshsx6giothdavmrbpwrrnkwczehzh89zh
+18:29:19.689 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:32:55.619 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+18:32:55.636 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+18:32:55.637 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+18:32:55.768 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:32:55.772 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:32:56.111 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to true
+18:32:56.112 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: f699ca81-7501-41ac-8f0e-6d6b4c6721fd
+18:32:56.113 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:32:56.120 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/mayankgaur/.browserstack already exist
+18:32:56.122 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: /Users/mayankgaur/.browserstack/cli/binary-macos-arm64
+18:32:57.251 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 
+18:32:57.251 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-macos-arm64-1.8.0.zip
+18:32:59.555 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: /Users/mayankgaur/.browserstack/cli
+18:32:59.556 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: /Users/mayankgaur/.browserstack/cli/binary-macos-arm64
+18:32:59.556 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=true
+18:33:02.098 [main] WARN  c.b.config.BrowserStackConfig - TEST REPORTING AND ANALYTICS could not be enabled because framework detected is true. We currently support frameworks testng, cucumber-testng & serenity
+18:33:02.951 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:33:04.582 [main] INFO  com.browserstack.testOps.Listener - Testhub started with id: dkdo4q6cbjfbtt9lhtwirdqual3uxinngfr6dvwk
+18:33:04.582 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:33:04.584 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:33:18.051 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:33:18.789 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+18:33:18.917 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:33:18.920 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:33:19.058 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 332eafcf-9350-41b7-917d-dc7f70c22a85
+18:33:19.058 [main] INFO  c.b.config.BrowserStackConfig - INFO
+18:33:19.067 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/mayankgaur/.browserstack already exist
+18:33:19.069 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: /Users/mayankgaur/.browserstack/cli/binary-macos-arm64
+18:33:20.142 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 
+18:33:20.143 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-macos-arm64-1.8.0.zip
+18:33:22.298 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: /Users/mayankgaur/.browserstack/cli
+18:33:22.298 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: /Users/mayankgaur/.browserstack/cli/binary-macos-arm64
+18:33:22.299 [main] INFO  com.browserstack.v2.SdkCLI - Disabling Cli for framework=true
+18:33:24.659 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:33:24.728 [main] WARN  c.b.config.BrowserStackConfig - TEST REPORTING AND ANALYTICS could not be enabled because framework detected is true. We currently support frameworks testng, cucumber-testng & serenity
+18:33:25.263 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+18:33:39.469 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.470 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.470 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.470 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.470 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.470 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.471 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.471 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.483 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.483 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.483 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.483 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.487 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.487 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.826 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.827 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.827 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:33:39.827 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:34:22.842 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:34:22.843 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:34:28.587 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:34:28.587 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:34:28.587 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:34:28.588 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:34:51.098 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:34:51.100 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:34:53.861 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:34:53.861 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:34:53.861 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:34:53.861 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:34.334 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:34.336 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:34.340 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:34.340 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:34.344 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:34.349 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:34.349 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:34.351 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:34.351 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:34.351 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:34.351 [main] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:36.568 [Thread-0] INFO  c.b.utils.BrowserStackDriverMap - thread id: 32 list {3=com.browserstack.config.TestNgCurrentRemoteWebdriver@252ec02e}
+18:35:38.269 [Thread-0] ERROR c.browserstack.testOps.RequestUtils - [RequestUtils] Error in stop: Non 200 response
+com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy8.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+18:35:40.270 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+18:35:47.154 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: f699ca81-7501-41ac-8f0e-6d6b4c6721fd, testhub id: dkdo4q6cbjfbtt9lhtwirdqual3uxinngfr6dvwk
+18:35:47.154 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
